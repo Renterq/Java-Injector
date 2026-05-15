@@ -10,7 +10,6 @@ import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 
 public class Injector {
-    // Kernel32'yi miras almadan kendi kütüphanemizi tanımlıyoruz ki IDEA method çakışması (Ambiguous) hatası vermesin.
     public interface MyKernel32 extends Library {
         MyKernel32 INSTANCE = Native.load("kernel32", MyKernel32.class);
         
