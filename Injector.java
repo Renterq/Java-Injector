@@ -23,7 +23,6 @@ public class Injector {
 
     public static void main(String[] args) {
         try {
-            // DLL dosyasinin Injector.jar ile ayni klasorde oldugunu varsayiyoruz
             File jarDir = new File(Injector.class.getProtectionDomain().getCodeSource().getLocation().toURI()).getParentFile();
             File dllFile = new File(jarDir, "dllmain.dll");
             
