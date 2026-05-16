@@ -33,7 +33,6 @@ typedef jint(__stdcall* GetCreatedJavaVMs_t)(JavaVM*, jsize, jsize*);
 
 
 DWORD WINAPI MainThread(LPVOID lpParam) {
-    // 1. Enjeksiyonun çalıştığını doğrulamak için kesin bir bip sesi çıkart
     // MessageBeep yerine Beep kullanıyoruz çünkü Windows sesleri kapalıysa bile çalışır.
     Beep(750, 300); // 750 Hz frekansında 300 ms boyunca bip
     
