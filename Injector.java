@@ -33,7 +33,6 @@ public class Injector {
             
             String dllPath = dllFile.getAbsolutePath();
             
-            // Minecraft (javaw.exe) PID'sini bul (ProcessBuilder kullanımı exec(String) deprecated hatasını çözer)
             int targetPid = -1;
             ProcessBuilder pb = new ProcessBuilder("tasklist", "/fi", "imagename eq javaw.exe", "/nh", "/fo", "csv");
             Process p = pb.start();
