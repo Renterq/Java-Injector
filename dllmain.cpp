@@ -5,7 +5,6 @@
 #pragma comment(lib, "winmm.lib")
 
 // --- JVM (JNI) Tanımlamaları ---
-// (Bu tanımlamalar JNI.h'den alınmıştır. Gelişmiş işlemler için JDK'dan JNI.h'yi projeye dahil etmelisiniz)
 struct JNIEnv_;
 struct JavaVM_;
 typedef JNIEnv_* JNIEnv;
