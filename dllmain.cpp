@@ -31,7 +31,6 @@ struct JavaVM_ {
 
 typedef jint(__stdcall* GetCreatedJavaVMs_t)(JavaVM*, jsize, jsize*);
 
-// ---------------------------------
 
 DWORD WINAPI MainThread(LPVOID lpParam) {
     // 1. Enjeksiyonun çalıştığını doğrulamak için kesin bir bip sesi çıkart
