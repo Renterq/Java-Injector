@@ -4,7 +4,6 @@
 
 #pragma comment(lib, "winmm.lib")
 
-// --- JVM (JNI) Tanımlamaları ---
 struct JNIEnv_;
 struct JavaVM_;
 typedef JNIEnv_* JNIEnv;
