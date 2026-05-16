@@ -2,7 +2,6 @@
 #include <mmsystem.h>
 #include <iostream>
 
-// Eğer özel bir ses çalmak isterseniz winmm.lib kütüphanesini bağlamamız gerekir.
 #pragma comment(lib, "winmm.lib")
 
 // --- JVM (JNI) Tanımlamaları ---
